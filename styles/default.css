@@ -1,0 +1,123 @@
+nav {
+  margin: 20px 0;
+}
+
+.nav-link {
+  transition: .5s;
+}
+
+.jumbotron {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .5s;
+}
+
+.jumbotron:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.02, 1.02);
+}
+
+.jumbotron-work {
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .5s;
+  margin-bottom: 40px;
+}
+
+.jumbotron-work:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.02, 1.02);
+}
+
+.jumbotron-warsound {
+  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .2)), url('../images/warsound/jumbotron.jpg');
+}
+
+.jumbotron-wave {
+  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .2) ), url('../images/wave/jumbotron.jpg');
+}
+
+.jumbotron-dotenote {
+  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .2) ), url('../images/dotenote/jumbotron.jpg');
+}
+
+kbd {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .5s;
+}
+
+kbd:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .5s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.05, 1.05);
+}
+
+.card-img-top {
+  border-radius: 20px;
+}
+
+.card-img-overlay {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.card-title {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin: 0 0 20px;
+}
+
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .5s;
+}
+
+img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.05, 1.05);
+}
+
+.row {
+  margin: 20px 0;
+}
